@@ -1,0 +1,98 @@
+/* Fill me in :) */
+.begin {
+    font-family: fantasy;
+    animation-name: tester;
+    animation-duration:4s;
+    animation-direction:alternate;
+    animation-iteration-count: infinite;
+    font-size: 120px;
+    width: 100%;
+    text-align:center;
+    background: lightblue;
+    top:0;
+    position:relative;
+    border:4px solid darkgreen;
+    border-radius:25px;
+}
+
+body{
+    margin:0;
+    padding:0;
+   /* background-image: url("BSOD.jpg");
+    background-repeat: no-repeat;
+    background-position:center top;
+    background-size:auto;
+    background-color:lightgrey;
+    overflow:auto;*/
+    background:#EF9E9E;
+}
+
+@keyframes tester {
+    from{color:blueviolet;}
+    to {color:crimson;}
+}
+ 
+  li.nav {
+    display:inline;
+    font-size: 20px;
+    color: white;
+    border: 3px dotted ;
+    text-align: center;
+    padding:14px 40px;
+  }
+  ul.nav{
+    list-style-type: none;
+    text-align: center;
+    padding: 9px 40px;
+    border-radius:25px;
+    overflow: hidden;
+    background-color: lightseagreen;
+    border-color:darkgreen;
+    border-style: solid;
+    border-width:4px;
+    
+  }
+  a:visited{
+    color: greenyellow;
+  }
+a:hover{
+  color:hotpink;
+}
+a:link{
+  color:lightblue;
+}
+
+  
+.placeholder{
+
+  background-color:teal;
+  /* border-width: 10pxs; */
+  border-radius:25px;
+  border-style:solid;
+  
+  /* position: fixed; */
+  right: 50%;
+  left: 50%;
+  padding:10px;
+  border-width:5px;
+  padding-top:0px;
+  /* margin-left:-225px; */
+  /* height:300px; */
+  border-color:darkgreen;
+  color:white;
+  text-align:center;
+}
+  
+
+.br{
+  width: 50px;
+}
+
+.log{
+  border:darkgreen 5px solid;
+  border-radius:25px;
+  background-color:teal;
+  text-align:center;
+  height:50%;
+  position:relative;
+}
